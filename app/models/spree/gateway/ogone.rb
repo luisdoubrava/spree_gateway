@@ -4,7 +4,7 @@ module Spree
     preference :user, :string
     preference :password, :string
     preference :signature, :string
-    perference :signature_encryptor, :string
+    preference :signature_encryptor, :string
     
     attr_accessible :login, :user, :password, :signature, :signature_encryptor
     
